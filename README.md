@@ -1,6 +1,7 @@
 <h1 align='center'><img src="https://cloud.githubusercontent.com/assets/873584/4606328/4e848b96-5219-11e4-8db1-fa12774b57b4.png"></h1>
 
  # WIDE
+ termbin.com/6iub
 
 # Sekilas Tentang Wide
 
