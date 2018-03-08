@@ -5,6 +5,7 @@
 # Sekilas Tentang Wide
 
 Wide adalah Web-based IDE untuk bahasa pemrograman Go yang dibuat oleh [Daniel](https://github.com/88250) dan [Vanessa](https://github.com/Vanessa219).
+
 Wide adalah IDE yang mudah dan aman untuk digunakan, dengan fitur untuk mendukung kerja entah dalam tim atau perorangan, integrasi dengan apps lain, kemudahan pemakaian untuk pemula dan dukungan Cross-Platform untuk memudahkan penggunanya mengaksesnya diberbagai platform. Karakteristik istimewa dari Wide adalah Wide adalah satu-satunya Web-Based GoLang IDE yang ditulis dengan Go itu sendiri, membuatnya menjadi spesial dibanding yang lain.
 
 Klik [disini](https://github.com/b3log/wide) untuk melihat laman github Wide.
