@@ -50,7 +50,7 @@ vagrant ssh
 ```
 
 ## Go-Lang
-<h1 align='center'><img src="http://www.unixstickers.com/stickers/coding_stickers/golang-go-programming-language-mashup-edition-shaped-sticker"></h1>
+<h1 align='center'><img src="https://i.imgur.com/vybIOuv.png"></h1>
 
 Bahasa Pemrograman Go-Lang adalah proyek open source yang dikembangkan di Google oleh Robert Griesemer, Rob Pike, dan Ken Thompson. Go adalah bahasa pemrograman yang ekspresif, ringkas, bersih, dan efisien. Mekanisme konkurensinya membuat menulis program menjadi lebih mudah. Go mempunyai waktu kompilasi yang cepat. 
 
