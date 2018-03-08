@@ -13,7 +13,7 @@ Klik [disini](https://github.com/b3log/wide) untuk melihat laman github Wide.
 Pada Projek kali ini tim kami menggunakan aplikasi Vagrant untuk memudahkan dalam me-manage, meng-install, dan meng-update aplikasi yang bersangkutan.
 
 # Vagrant
-<h1 align='center'><img src="http://tech.osteel.me/posts/2015/01/25/how-to-use-vagrant-for-local-web-development.html"></h1>
+<h1 align='center'><img src="https://i.imgur.com/k4K3LTe.png"></h1>
 
 **Vagrant** adalah apps untuk mem-built dan mengelola lingkungan vm(Virtual Machine) dalam satu alur kerja. Dengan alur kerja yang mudah digunakan dan fokus pada otomasi, Vagrant menurunkan waktu development environment setup, meningkatkan paritas produksi, dan membuat "di mesin saya kerja kok" menjadi alasan jadul.
 Karena Vagrant
