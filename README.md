@@ -1,10 +1,12 @@
 <h1 align='center'><img src="https://cloud.githubusercontent.com/assets/873584/4606328/4e848b96-5219-11e4-8db1-fa12774b57b4.png"></h1>
 
  # WIDE
-</br>
 
 # Sekilas Tentang Wide
-[`^ kembali ke atas ^`](#)
+[`^ kembali ke Wide ^`](#wide)
+[`^ kembali ke Atas ^`](#)
+Wide adalah Web-based IDE untuk bahasa pemrograman Go yang dibuat oleh [Daniel](https://github.com/88250) dan [Vanessa](https://github.com/Vanessa219).
+Wide adalah IDE yang mudah dan aman untuk digunakan, dengan berbagai fitur yang dapat mendukung kerja dalam tim. Wide juga bersifat Cross-Platform, dimana Wide bisa dijalankan di beberapa perangkat mobile
 
 # Vagrant
 **Vagrant** adalah apps untuk mem-built dan mengelola lingkungan vm(Virtual Machine) dalam satu alur kerja. Dengan alur kerja yang mudah digunakan dan fokus pada otomasi, Vagrant menurunkan waktu development environment setup, meningkatkan paritas produksi, dan membuat "di mesin saya kerja kok" menjadi alasan jadul.
