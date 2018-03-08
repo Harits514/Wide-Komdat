@@ -1,3 +1,11 @@
+<h1 align='center'><img src="https://cloud.githubusercontent.com/assets/873584/4606328/4e848b96-5219-11e4-8db1-fa12774b57b4.png"></h1>
+
+ # WIDE
+</br>
+
+# Sekilas Tentang Wide
+[`^ kembali ke atas ^`](#)
+
 # Vagrant
 **Vagrant** adalah apps untuk mem-built dan mengelola lingkungan vm(Virtual Machine) dalam satu alur kerja. Dengan alur kerja yang mudah digunakan dan fokus pada otomasi, Vagrant menurunkan waktu development environment setup, meningkatkan paritas produksi, dan membuat "di mesin saya kerja kok" menjadi alasan jadul.
 Karena Vagrant
