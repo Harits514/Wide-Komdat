@@ -35,13 +35,29 @@ sudo dpkg -i vagrant*deb
 
 ## Set Up vagrant
 
+
+Install box ubuntu xenial (16.04)
 ```
-# Install box ubuntu xenial (16.04)
 vagrant init ubuntu/xenial64
-
-# Jalankan box
+```
+Jalankan box
+```
 vagrant up
-
-# Masuk ke box vagrant
+```
+Masuk ke box vagrant
+```
 vagrant ssh
+```
+
+## Set up golang
+
+Kunjungi dari [official repository](https://golang.org/dl/) untuk melihat versi yang sesuai dengan sistem operasi yang dimiliki.
+Setelah memilih versi dan jenis sistem operasi yang disupport, download ke box
+```
+wget https://dl.google.com/go/go1.10.linux-amd64.tar.gz
+```
+
+Extract archive ke home directory (best practice)
+```
+tar -xf ~/
 ```
