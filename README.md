@@ -114,6 +114,10 @@ sudo service firewalld stop
 # Otomastisasi
 
 # Cara Pemakaian
++Langkah pertama yang harus dilakukan yaitu sign-up akun, proses sign-up pada website sama seperti proses sign-up pada website lainnya, tidak ada perlakukan spesial yang diperlukan. Untuk penggunaan IDE secara team, Wide belum support fitur kontributor, untuk melakukan proses edit secara bersamaan dapat dilakukan dengan pemakaian satu akun secara bersama.
++
++Setelah berhasil sign-up kemudian login, maka user akan dibawa ke tampilan default utama :
++<h1 align='center'><img src="https://i.imgur.com/gkf5mse.png"></h1>
 
 # Pembahasan
 Golang yang mendapatkan popularitas yang tinggi akhir-akhir ini membuat banyak IDE untuk GoLang bermunculan.Diantara IDE tersebut banyak yang merupakan Cloud-Based IDE, dan tentunya semua IDE tersebut punya keuntungan dan kekurangannya tersendiri. Banyak dari IDE tersebut hanya sekedar untuk menjalankan potongan kode GoLang saja(PlayGround), pada pembahsan kami kali ini, kami akan membandingkan Wide dengan Cloud based IDE yang lain, yang menawarkan seperti apa yang ditawarkan oleh Wide, yaitu dukungan untuk pengembangan projek bersama dalam tim, dan kemampuan untuk menyimpan file di dalam Cloud.
