@@ -114,12 +114,34 @@ sudo service firewalld stop
 # Otomastisasi
 
 # Cara Pemakaian
-Langkah pertama yang harus dilakukan yaitu sign-up akun, proses sign-up pada website sama seperti proses sign-up pada website lainnya, tidak ada perlakukan spesial yang diperlukan. Untuk penggunaan IDE secara team, Wide belum support fitur kontributor, untuk melakukan proses edit secara bersamaan dapat dilakukan dengan pemakaian satu akun secara bersama.
-
-Setelah berhasil sign-up kemudian login, maka user akan dibawa ke tampilan default utama :
-<h1 align='center'><img src="https://i.imgur.com/gkf5mse.png"></h1>
 
 # Pembahasan
+Golang yang mendapatkan popularitas yang tinggi akhir-akhir ini membuat banyak IDE untuk GoLang bermunculan.Diantara IDE tersebut banyak yang merupakan Cloud-Based IDE, dan tentunya semua IDE tersebut punya keuntungan dan kekurangannya tersendiri. Banyak dari IDE tersebut hanya sekedar untuk menjalankan potongan kode GoLang saja(PlayGround), pada pembahsan kami kali ini, kami akan membandingkan Wide dengan Cloud based IDE yang lain, yang menawarkan seperti apa yang ditawarkan oleh Wide, yaitu dukungan untuk pengembangan projek bersama dalam tim, dan kemampuan untuk menyimpan file di dalam Cloud.
+
+1. Cloud9
+Cloud9 Adalah cloud based IDE yang dikembangkan oleh amazon dan mendukung berbagai bahasa, tidak hanya Golang.
+Kelebihan dari Cloud9 adalah:
+* Pengembang dapat langsung melakukan coding dengan konfigurasi workspace awal.
+* Mempunyai fitur terminal yang sudah built-in
+* Mempunyai fitur image editor yang sudah built-in
+* Fitur penyimpanan cloud
+* Drag and Drop ability
+* Mempunyai fitur database(MySQL, SQLite, dll)
+* Tersambung ke Github,BitBucket dan Google cloud platform
+* Mendukung kerja tim dalam sebuah projek
+
+Walaupun mempunyai kelebihan yang tebilang sangat banyak dan memukau, Cloud9 juga mempunyai kelemahan diantaranya adalah:
+* Sebelum memakainya, harus Sign-in terlebih dahulu, dimana salah satu prasyarat sign-in nya adalah nomor dari kartu kredit yang akitf, membuatnya tidak bisa dipakai oleh kalangan banyak
+* Berbayar. Setelag sign in dengan nomr kartu kredit, user akan memasuki masa trial, sesudah masa aktif trial habis, user harus membayar untuk memakai.
+* Tidak student-friendly, karena berbayar
+* Fitur auto complete dan debugging untuk Go masih belum bagus dan belum komplit
+
+2.CodeEnvy
+<h1 align='center'><img src="https://i.imgur.com/A8vSg79.png"></h1>
+CodeEnvy adalah cloud based IDE yang selanjutnya. CodeEnvy mendukung berbagai bahasa, tidak hanya go, dan dibangun diatas Eclipse Che, cloud based IDE open-source milik Eclipse.
+Kelebihan:
+
+
 
 # Referensi
 
