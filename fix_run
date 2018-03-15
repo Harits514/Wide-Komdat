@@ -1,0 +1,9 @@
+Jika tidak bisa diakses dari luar: cek firewall
+
+////
+
+Jalan di wide 1.5.0 
+./wide -ip 0.0.0.0
+
+diakses dari luar misal 192.168.1.3:7070
+atau 0.0.0.0:7070
