@@ -114,14 +114,53 @@ sudo service firewalld stop
 # Otomastisasi
 
 # Cara Pemakaian
-+Langkah pertama yang harus dilakukan yaitu sign-up akun, proses sign-up pada website sama seperti proses sign-up pada website lainnya, tidak ada perlakukan spesial yang diperlukan. Untuk penggunaan IDE secara team, Wide belum support fitur kontributor, untuk melakukan proses edit secara bersamaan dapat dilakukan dengan pemakaian satu akun secara bersama.
-+
-+Setelah berhasil sign-up kemudian login, maka user akan dibawa ke tampilan default utama :
-+<h1 align='center'><img src="https://i.imgur.com/gkf5mse.png"></h1>
+Langkah pertama yang harus dilakukan yaitu sign-up akun, proses sign-up pada website sama seperti proses sign-up pada website lainnya, tidak ada perlakukan spesial yang diperlukan. Untuk penggunaan IDE secara team, Wide belum support fitur kontributor, untuk melakukan proses edit secara bersamaan dapat dilakukan dengan pemakaian satu akun secara bersama.
+
+Setelah berhasil sign-up kemudian login, maka user akan dibawa ke tampilan default utama :
+<h1 align='center'><img src="https://i.imgur.com/gkf5mse.png"></h1>
+
+pada sisi kiri terdapat window file explorer, di kanan terdapat golang-IDE yang akan kita pakai untuk menjalankan program yang ada.
+
+Terdapat sembilan menu-bar yang ada pada IDE yaitu :
+1. File
+   - Save All  : berfungsi untuk menyimpan hasil kerja kita pada semua file yang telah diubah
+   - Close All : berfungsi untuk menutup semua jendela kerja yang telah dibuka
+   - Import    : berfungsi untuk menambahkan file-file ke repository dari local disk.
+   - Export    : berfungsi untuk mengekspor projek ke local disk
+2. Edit
+   - Undo,Redo            : kembali ke kondisi sebelum perubahan atau setelah perubahan
+   - Select all           : blok semua source code pada jendela IDE
+   - Select identifier    : arahkan kursor ke bagian terakhir diketik
+   - Goto line            : loncat ke baris yang diinginkan
+   - Delete line          : hapus line yang diarahkan kursor
+   - Copy lines up,down   : duplikat line ke atas/bawah
+   - Delete lines up,down : hapus line ke atas/bawah
+3. Source
+   - Format               : Rapihkan source code sesuai format golang
+   - Autocomplete         : Otomatis merubah potongan kode yang sedang diketikkan
+   - Jump To Decl         : Loncat ke deklarasi terakhir
+   - Show Expression info : Tampilkan informasi package yang terkait dengan potongan kode
+   - Find usages          : Temukan fungsi dari suatu potongan kode
+   - Toggle comment       : Merubah potongan kode menjadi komentar atau sebaliknya
+4. Find
+   - Goto File     : Pindah ke file yang diinginkan pada repository
+   - Find in Files : temukan file yang berisi kata kunci yang diinginkan
+   - Find          : temukan kata kunci yang diinginkan pada file
+   - Find next     : temukan kata kunci yang diinginkan selanjutnya pada file
+   - Find previous : temukan kata kunci yang diinginkan selanjutnya pada file
+   - Replace       : Ganti kata kunci pada file dengan kata kunci lain yang diinginkan satu-persatu
+   - Replace All   : Ganti kata kunci pada file dengan kata kunci lain yang diinginkan semuanya
+5. Focus
+   - Focus to Editor       : 
+   - Focus to File Tree    :
+   - Focus to Output       :
+   - Focus to Search       :
+   - Focus to Notification :
 
 # Pembahasan
 Golang yang mendapatkan popularitas yang tinggi akhir-akhir ini membuat banyak IDE untuk GoLang bermunculan.Diantara IDE tersebut banyak yang merupakan Cloud-Based IDE, dan tentunya semua IDE tersebut punya keuntungan dan kekurangannya tersendiri. Banyak dari IDE tersebut hanya sekedar untuk menjalankan potongan kode GoLang saja(PlayGround), pada pembahsan kami kali ini, kami akan membandingkan Wide dengan Cloud based IDE yang lain, yang menawarkan seperti apa yang ditawarkan oleh Wide, yaitu dukungan untuk pengembangan projek bersama dalam tim, dan kemampuan untuk menyimpan file di dalam Cloud.
 
+## Kelebihan-Kekurangan Cloud IDE Lain
 1. Cloud9
 
 Cloud9 Adalah cloud based IDE yang dikembangkan oleh amazon dan mendukung berbagai bahasa, tidak hanya Golang.
@@ -143,8 +182,33 @@ Walaupun mempunyai kelebihan yang tebilang sangat banyak dan memukau, Cloud9 jug
 
 2.CodeEnvy
 <h1 align='center'><img src="https://i.imgur.com/A8vSg79.png"></h1>
-CodeEnvy adalah cloud based IDE yang selanjutnya. CodeEnvy mendukung berbagai bahasa, tidak hanya go, dan dibangun diatas Eclipse Che, cloud based IDE open-source milik Eclipse.
+CodeEnvy adalah cloud based IDE yang selanjutnya. CodeEnvy dimiliki oleh RedHat dan mendukung berbagai bahasa, tidak hanya go, dan dibangun diatas Eclipse Che, cloud based IDE open-source milik Eclipse.
+
 Kelebihan:
+* Dibangun diatas Cloud Based IDE yang open source
+* Fitur penyimpanan cloud untuk file projek
+* Dapat menjalankan lebih dari satu bahasa dalam satu projek
+* Fitur untuk bekerja sendiri gratis
+
+Kelemahan:
+* Fitur untuk kerja kolaboratif berbayar
+* Pembatasan pemakaian akun gratisan dengan batas pemakaian RAM
+
+## Kelebihan-Kekurangan Wide
+Wide walaupun tidak ditopang oleh perusahaan besar seperti 2 Cloud based IDE diatas, juga mempunyai banyak kelebihan, tidak kalah dengan saingan-saningannya. Kelebihannya diantaranya:
+* Dibuat dengan GoLang itu sendiri
+* Semua fitur GRATIS untuk dipakai
+* Cross-Platform, dapat digunakan bahkan di perangkat mobile
+* Setiap pengembang yang terhubung ke projek mempunyai repository source codenya sendiri
+* Fitur Playground dapat dipakai tanpa registrasi
+* Fitur auto-complete
+* Mempunyai fitur penyimpanan cloud untuk file projek
+* Beginner-friendly
+* Tampilan menggunakan LiteIDE, mudah dimengerti untuk digunakan
+* Dapat diinstall di VM
+Walaupun begitu Wide juga kekurangan, diantaranya:
+*
+
 
 
 
