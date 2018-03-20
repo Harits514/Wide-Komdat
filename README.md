@@ -1,7 +1,28 @@
 <h1 align='center'><img src="https://cloud.githubusercontent.com/assets/873584/4606328/4e848b96-5219-11e4-8db1-fa12774b57b4.png"></h1>
 
 <h1 style="font-size: 70px;" align = center >WIDE</h1>
- termbin.com/6iub
+
+## Table of Contents
+
+- [Sekilas Tentang Wide](#sekilas-tentang-wide)
+- [Vagrant](#vagrant)
+  - [Intalasi Vagrant](#instalasi-vagrant)
+    - [Automatic Installation](#automatic-install)
+    - [Manual Instalation](#manual-install)
+  - [Setup Vagrant](#set-up-vagrant)
+- [Go Lang](#golang)
+  - [Setup Go Lang](#set-up-golang)
+- [Instalasi Wide](#instalasi-wide)
+  - [Prasyarat sistem](#prasyarat-sistem)
+  - [Langkah-Langkah Intaslasi](#langkah-instalasi)
+- [Konfigurasi](#konfigurasi)
+- [Konfigurasi Nginx](#konfigurasi-nginx-opsional)
+- [Maintenance](#maintenance)
+- [Otomatisasi](#otomatisasi)
+- [Cara Pemakaian](#cara-pemakaian)
+- [Pembahasan](#pembahasan)
+- [Referensi](#referensi)
+
 
 # Sekilas Tentang Wide
 
@@ -14,7 +35,8 @@ Klik [disini](https://github.com/b3log/wide) untuk melihat laman github Wide.
 Pada Projek kali ini tim kami menggunakan aplikasi Vagrant untuk memudahkan dalam me-manage, meng-install, dan meng-update aplikasi yang bersangkutan.
 
 # Vagrant
-<h1 align='center'><img src="https://i.imgur.com/k4K3LTe.png"></h1>
+
+<h1 align='center'><a href="https://www.vagrantup.com/"><img src="https://i.imgur.com/k4K3LTe.png"></a></h1>
 
 **Vagrant** adalah apps untuk mem-built dan mengelola lingkungan vm(Virtual Machine) dalam satu alur kerja. Dengan alur kerja yang mudah digunakan dan fokus pada otomasi, Vagrant menurunkan waktu development environment setup dan juga meningkatkan paritas produksi.
 
@@ -56,7 +78,7 @@ Masuk ke box vagrant
 vagrant ssh
 ```
 
-# Go-Lang
+# GoLang
 <h1 align='center'><img src="https://i.imgur.com/vybIOuv.png"></h1>
 
 Bahasa Pemrograman Go-Lang adalah proyek open source yang dikembangkan di Google oleh Robert Griesemer, Rob Pike, dan Ken Thompson. Go adalah bahasa pemrograman yang ekspresif, ringkas, bersih, dan efisien. Mekanisme konkurensinya membuat menulis program menjadi lebih mudah. Go mempunyai waktu kompilasi yang cepat. 
