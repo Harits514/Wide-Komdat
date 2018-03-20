@@ -115,8 +115,6 @@ go build
 ```
 Jika build berhasil, akan ada sebuah file binary baru bernama "wide"
 
-3. Terusin sampai akhir, ingat sumber->http://termbin.com/6iub
-
 # Konfigurasi
 Agar alamat dapat diakses oleh host dan komputer lain, firewall dapat dimatikan dahulu
 ```
@@ -212,7 +210,7 @@ go build
 Script diatas mengterminate binary wide yang sudah berjalan, lalu pull source terbaru dari github, lalu menjalankan wide kembali
 
 
-# Otomastisasi
+# Otomatisasi
 Kami sudah menyediakan script untuk otomatisasi instalasi dan maintenance di repository ini.
 ```
 # instalasi golang dan wid
@@ -276,7 +274,6 @@ Golang yang mendapatkan popularitas yang tinggi akhir-akhir ini membuat banyak I
 
 Cloud9 Adalah cloud based IDE yang dikembangkan oleh amazon dan mendukung berbagai bahasa, tidak hanya Golang.
 Kelebihan dari Cloud9 adalah:
-* Pengembang dapat langsung melakukan coding dengan konfigurasi workspace awal.
 * Mempunyai fitur terminal yang sudah built-in
 * Mempunyai fitur image editor yang sudah built-in
 * Fitur penyimpanan cloud
@@ -308,19 +305,22 @@ Kelemahan:
 ## Kelebihan-Kekurangan Wide
 Wide walaupun tidak ditopang oleh perusahaan besar seperti 2 Cloud based IDE diatas, juga mempunyai banyak kelebihan, tidak kalah dengan saingan-saningannya. Kelebihannya diantaranya:
 * Dibuat dengan GoLang itu sendiri
-* Semua fitur GRATIS untuk dipakai
+* Semua fitur GRATIS untuk dipakai(pada saat ini)
 * Cross-Platform, dapat digunakan bahkan di perangkat mobile
-* Setiap pengembang yang terhubung ke projek mempunyai repository source codenya sendiri
 * Fitur Playground dapat dipakai tanpa registrasi
-* Fitur auto-complete
+* Fitur auto-complete untuk GoLang dan HTML
 * Mempunyai fitur penyimpanan cloud untuk file projek
+* Mempunyai shell built in
 * Beginner-friendly
 * Tampilan menggunakan LiteIDE, mudah dimengerti untuk digunakan
 * Dapat diinstall di VM
+
 Walaupun begitu Wide juga kekurangan, diantaranya:
-*
+* Fitur instalasi di VM masih buggy
+* Fitur shell tidak tersedia jika wide dibuka dengan komputer ber-OS windows
+* Terdapat bug pada saat rename directory yang sudah lama ada
 
-
+Wide dengan segala kelebihan dan kekurangannya menurut kelompok kami benar-benar pantas dicoba. Walaupun mungkin IDE GoLang lain mempunyai lebih banyak fitur daripada Wide dan lebih lengkap, tetapi Wide juga punya karakteristik yang tidak dimiliki IDE GoLang lainnya(Ditulis sendiri  dengan Go, Fitur Cross Platform) yang tentunya membuatnya standout dibandingkan yang lain.
 
 
 # Referensi
