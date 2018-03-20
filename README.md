@@ -86,23 +86,34 @@ tar -xf ~/
 #### 1. Instalasi Golang dari source
 Instalasi pada virtual machine menggunakan Go versi terbaru saat dokumentasi ini dibuat (1.10)
 ```
+# Download archive golang yang sudah tercompile sesuai arsitektur komputer (64 bit)
 wget https://dl.google.com/go/go1.10.linux-amd64.tar.gz
 
+# extract archive tersebut
 tar -xf  go*.tar.gz 
 
+# masukkan beberapa environment variable agar mudah diakses
 echo "export GOPATH=~/gopath" >> ~/.bashrc
 echo "export GOROOT=~/go" >> ~/.bashrc
 echo "export PATH=$PATH:$HOME/go/bin" >> ~/.bashrc
 echo "export GOBIN=$HOME/gopath" >> ~/.bashrc
-git clone https://github.com/b3log/wide
 
-cd wide
-go get
-go get github.com/visualfc/gotools github.com/nsf/gocode github.com/bradfitz/goimports
-go build
 ```
 
-2. 
+2. Instalasi wide dari source code git
+```
+# clone repository wide dari github
+git clone https://github.com/b3log/wide
+
+# masuk ke direktori wide
+cd wide 
+# install dependency golang yang dibutuhkan
+go get
+go get github.com/visualfc/gotools github.com/nsf/gocode github.com/bradfitz/goimports
+# build source code wide
+go build
+```
+Jika build berhasil, akan ada sebuah file binary baru bernama "wide"
 
 3. Terusin sampai akhir, ingat sumber->http://termbin.com/6iub
 
@@ -111,6 +122,23 @@ Agar alamat dapat diakses oleh host dan komputer lain, firewall dapat dimatikan 
 ```
 sudo service firewalld stop
 ```
+
+menjalankan binary wide
+```
+./wide
+```
+Wide akan berjalan pada port default 7070 dan ip default. Ip ini akan bermasalah jika diakses dari luar, maka kami menjalankan program tersebut dengan ip 0.0.0.0. 
+```
+./wide -ip 0.0.0.0
+```
+Setelah ini, host dapat mengakses Wide dari virtual machine.
+
+(opsional) dapat juga mengubah port jika port sedang digunakan oleh program lain
+```
+# misal di port 8888
+./wide -ip 0.0.0.0 -port 8888
+```
+
 
 # Konfigurasi nginx (opsional)
 ![skema](https://github.com/Harits514/Wide-Komdat/raw/master/schema.png)
@@ -184,9 +212,17 @@ go build
 Script diatas mengterminate binary wide yang sudah berjalan, lalu pull source terbaru dari github, lalu menjalankan wide kembali
 
 
-
-
 # Otomastisasi
+Kami sudah menyediakan script untuk otomatisasi instalasi dan maintenance di repository ini.
+```
+# instalasi golang dan wid
+chmod +x automate_install.sh
+./automate_install.sh
+
+# otomatiasi update 
+chmod +x autoamte_update.sh
+./automate_update.sh
+```
 
 # Cara Pemakaian
 Langkah pertama yang harus dilakukan yaitu sign-up akun, proses sign-up pada website sama seperti proses sign-up pada website lainnya, tidak ada perlakukan spesial yang diperlukan. Untuk penggunaan IDE secara team, Wide belum support fitur kontributor, untuk melakukan proses edit secara bersamaan dapat dilakukan dengan pemakaian satu akun secara bersama.
