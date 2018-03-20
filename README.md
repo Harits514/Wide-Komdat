@@ -83,7 +83,8 @@ tar -xf ~/
 
 ### Langkah Instalasi:
 
-1. Jelasin
+#### 1. Instalasi Golang dari source
+Instalasi pada virtual machine menggunakan Go versi terbaru saat dokumentasi ini dibuat (1.10)
 ```
 wget https://dl.google.com/go/go1.10.linux-amd64.tar.gz
 
@@ -100,16 +101,90 @@ go get
 go get github.com/visualfc/gotools github.com/nsf/gocode github.com/bradfitz/goimports
 go build
 ```
-2. Jelasin
+
+2. 
+
+3. Terusin sampai akhir, ingat sumber->http://termbin.com/6iub
+
+# Konfigurasi
+Agar alamat dapat diakses oleh host dan komputer lain, firewall dapat dimatikan dahulu
 ```
 sudo service firewalld stop
 ```
 
-3. Terusin sampai akhir, ingat sumber->http://termbin.com/6iub
+# Konfigurasi nginx (opsional)
+![skema](https://github.com/Harits514/Wide-Komdat/raw/master/schema.png)
 
-# Konfigurasi (Kalau gak ada hapus)
+Wide berjalan sebagai binary pada sebuah port, untuk meningkatkan performa dan juga mendukung fitur lainnya misalnya Gzip compression, caching, dan load balancer, kita dapat menggunakan nginx sebagai reverse proxy.
+Instalasi di virtual machine
 
-# Main Tenis (Kalau gak ada hapus)
+Instalasi nginx
+```
+# update repository
+sudo apt update
+
+# install nginx
+sudo apt install nginx
+
+# jalankan nginx
+sudo systemctl start nginx
+```
+
+konfigurasi nginx sebagai reverse proxy
+buka file konfigurasi nginx
+```
+sudo vim /etc/nginx/nginx.conf
+```
+
+tambah di dalam http{}
+```
+server {
+    listen       80;
+    server_name  _;
+    location / {
+        proxy_set_header X-Forwarded-For $remote_addr;
+        proxy_set_header Host            $http_host;
+        proxy_pass http://127.0.0.1:7070;
+    }
+
+}
+```
+Kode diatas berguna untuk memforward koneksi di port 80 ke port 7070 yaitu port dimana wide berjalan
+
+Save dengan Esc+ ":wq"
+Setelah sudah disave, jalankan
+```
+sudo nginx -t
+```
+Agar keluar output yang jika berhasil, ada tulisan successful.
+
+Kemudian restart nginx
+```
+sudo systemctl restart nginx
+```
+
+# Maintenance
+Untuk maintenance, kami membuat script cron job dimana script tersebut dapat otomatis mengupdate source Wide dari github.
+
+Untuk mengakses cron job
+```
+crontab -e
+inputkan "5 8 * * 0 ~/automate_update.sh"
+```
+
+pada script automate_update.sh:
+```
+kill $(ps -a | grep wide |  cut -d " " -f 2)
+git pull
+go get
+go get github.com/visualfc/gotools github.com/nsf/gocode github.com/bradfitz/goimports
+go build
+./wide
+```
+Script diatas mengterminate binary wide yang sudah berjalan, lalu pull source terbaru dari github, lalu menjalankan wide kembali
+
+
+
 
 # Otomastisasi
 
