@@ -347,7 +347,8 @@ Wide dengan segala kelebihan dan kekurangannya menurut kelompok kami benar-benar
 
 # Referensi
 
-1. [Wide Github Page](https://github.com/b3log/wide)
-2. [Vagrant main webpage](https://www.vagrantup.com/)
-3. [Go-Lang main webpage](https://golang.org/)
-4. [Project Report Template Reference](https://github.com/OneStyd/prestashop/blob/master/README.md#)
+1. [Wide Github Page](https://github.com/b3log/wide) - Wide
+2. [Vagrant main webpage](https://www.vagrantup.com/) - Vagrant
+3. [Go-Lang main webpage](https://golang.org/) - GoLang
+4. [Project Report Template Reference](https://github.com/OneStyd/prestashop/blob/master/README.md#) - Prestashop installation and review
+5. [Golang IDE Review](https://www.computerworld.com/article/3173584/application-development/the-top-go-language-ides-and-editors.html) - A GoLang IDE Review by Martin Heller
