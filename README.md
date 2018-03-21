@@ -99,9 +99,11 @@ tar -xf ~/
 # Instalasi Wide
 
 ### Prasyarat Sistem:
-- bla
-- bla
-- bla
+- OS Linux x64 atau x86
+- GO Versi 1.10
+- RAM 256MB
+- Vagrant Versi 2.0.3
+- Virtualbox5.x
 
 ### Langkah Instalasi:
 
