@@ -282,11 +282,20 @@ Terdapat sembilan menu-bar yang ada pada IDE yaitu :
    - Replace       : Ganti kata kunci pada file dengan kata kunci lain yang diinginkan satu-persatu
    - Replace All   : Ganti kata kunci pada file dengan kata kunci lain yang diinginkan semuanya
 5. Focus
-   - Focus to Editor       : 
-   - Focus to File Tree    :
-   - Focus to Output       :
-   - Focus to Search       :
-   - Focus to Notification :
+   - Focus to Editor       : Arahkan pointer ke menu editor
+   - Focus to File Tree    : Arahkan pointer ke menu file explorer
+   - Focus to Output       : Arahkan pointer ke tab Output
+   - Focus to Search       : Arahkan pointer ke tab Search
+   - Focus to Notification : Arahkan pointer ke tab Notification
+6. Run
+   - Berisi perintah untuk menjalankan source-code seperti build dan build lalu jalankan ( build & run )
+7. Team
+   - Sign-up   : Buat akun jika belum punya
+   - Git clone : Clone atau ambil project dari repository github yang diinginkan
+8. Preference
+   - Berisi pengaturan untuk penggunaan IDE seperti Font, Font size, Build argument, dan user profile.
+9. Help
+   - Berisi menu-menu umum yang biasa dipakai pada menu bantuan, seperti about ( Tentang kami), dokumentasi dan keyboard shorcuts.
 
 # Pembahasan
 Golang yang mendapatkan popularitas yang tinggi akhir-akhir ini membuat banyak IDE untuk GoLang bermunculan.Diantara IDE tersebut banyak yang merupakan Cloud-Based IDE, dan tentunya semua IDE tersebut punya keuntungan dan kekurangannya tersendiri. Banyak dari IDE tersebut hanya sekedar untuk menjalankan potongan kode GoLang saja(PlayGround), pada pembahsan kami kali ini, kami akan membandingkan Wide dengan Cloud based IDE yang lain, yang menawarkan seperti apa yang ditawarkan oleh Wide, yaitu dukungan untuk pengembangan projek bersama dalam tim, dan kemampuan untuk menyimpan file di dalam Cloud.
